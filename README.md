@@ -12,7 +12,7 @@ As with all [completions](https://sublime-text-unofficial-documentation.readthed
 
 ## Aliases
 
-You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displayed in the command completion window.
+You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displayed in the command completion window. Aliases have been broken up into the following categories (bold marks proper syntax):
 
 ### Prince Versions
 
