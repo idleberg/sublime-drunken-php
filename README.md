@@ -19,7 +19,9 @@ Support for two types of spacing, equalizing **`get_html_translation_table`**/`g
 The order of noun and verb is reversible, you can use combos such as **`ini_get`**/`get_ini` or **`get_class`**/`class_get`
 
 ## Links
+
 [PHP: a fractal of bad design](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)
+
 [PHP in contrast to Perl](http://tnx.nl/php.html)
 
 ## License
