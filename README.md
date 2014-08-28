@@ -2,9 +2,13 @@
 
 ## Description
 
-PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the section below for examples.
+PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the [Aliases](https://github.com/idleberg/Drunken-PHP#aliases) section below for examples.
 
 **Note:** More recent versions of Sublime Text 3 received a much improved fuzzy completion. Nevertheless, I still believe that this package makes for a good companion to your standard PHP completions. However, I'm undecided about the future of this project, it's clearly far from being complete. Should you be interested in helping out, feel free to submit a pull request.
+
+## Usage
+
+As with all [completions](https://sublime-text-unofficial-documentation.readthedocs.org/en/latest/extensibility/completions.html), type and press `Tab` to complete the command. Press `Tab` again to jump to the next parameter, `Shift+Tab` to jump back. Note there are two jumps available when the parameter defaults to a variable.
 
 ## Aliases
 
