@@ -2,9 +2,9 @@
 
 ## Description
 
-This might be a bad idea, as you might never memorize the correct PHP syntax. But then again, using this you don't have to anymore. PHP is often criticized for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of command completions, including aliases for ill-formed syntax. Read the section below for examples.
+PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the section below for examples.
 
-**Note:** More recent version of Sublime Text 3 received a much improved fuzzy completion. However, while I still believe that this package makes for a good companion to standard PHP completions, I'm undecided about the future of this project. Also, this project is far from completed. Should you be interested in helping out, feel free to submit a pull request.
+**Note:** More recent versions of Sublime Text 3 received a much improved fuzzy completion. However, I still believe that this package makes for a good companion to standard PHP completions. However, I'm undecided about the future of this project, it's clearly far from being complete. Should you be interested in helping out, feel free to submit a pull request.
 
 ## Aliases
 
@@ -46,11 +46,6 @@ Examples:
 
 * **`ini_get`** = `get_ini`
 * **`get_class`** = `class_get`
-
-## Links
-
-* [PHP: a fractal of bad design](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)
-* [PHP in contrast to Perl](http://tnx.nl/php.html)
 
 ## License
 
