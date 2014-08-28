@@ -8,7 +8,7 @@ PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 
 ## Aliases
 
-You can tell apart *Drunken PHP* from proper syntax from the %-prefix in the command completion window.
+You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displayed in the command completion window.
 
 ### Prince Versions
 
