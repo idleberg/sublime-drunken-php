@@ -4,7 +4,7 @@
 
 This might be a bad idea, as you might never memorize the correct PHP syntax. But then again, using this you don't have to anymore. PHP is often criticized for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of command completions, including aliases for ill-formed syntax. Read the section below for examples.
 
-**Note:** More recent version of Sublime Text 3 received a much improved fuzzy completion. However, while I still believe that this package makes for a good companion to standard PHP completions, I'm undecided about the future of this project. Should you be interested in helping out, feel free to submit a pull request.
+**Note:** More recent version of Sublime Text 3 received a much improved fuzzy completion. However, while I still believe that this package makes for a good companion to standard PHP completions, I'm undecided about the future of this project. Also, this project is far from completed. Should you be interested in helping out, feel free to submit a pull request.
 
 ## Aliases
 
