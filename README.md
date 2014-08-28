@@ -1,4 +1,4 @@
-# Drunken PHP for Sublime Text
+# Drunken PHP for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Drunken-PHP.svg?branch=branch)](http://travis-ci.org/idleberg/Drunken-PHP)
 
 ## Description
 
