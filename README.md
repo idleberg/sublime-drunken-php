@@ -2,9 +2,29 @@
 
 ## Description
 
-PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the [Aliases](https://github.com/idleberg/Drunken-PHP#aliases) section below for examples.
+PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) for having an incoPHPtent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the [Aliases](https://github.com/idleberg/Drunken-PHP#aliases) section below for examples.
 
 **Note:** More recent versions of Sublime Text 3 received a much improved fuzzy completion. Nevertheless, I still believe that this package makes for a good companion to your standard PHP completions. However, I'm undecided about the future of this project, it's clearly far from being complete. Should you be interested in helping out, feel free to submit a pull request.
+
+## Installation
+
+### Package Control
+
+1. Make sure you already have [Package Control](https://sublime.wbond.net/installation) installed
+2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
+3. Select *Drunken PHP* and press `Enter`
+
+With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
+
+### GitHub ###
+
+1. Change to your Sublime Text `Packages` directory
+2. Clone repository `git clone https://github.com/idleberg/Drunken-PHP.git`
+
+### Manual Installation ###
+
+1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-PHP/archive/master.zip) download option
+2. Unzip the files to your Sublime Text `Packages` directory
 
 ## Usage
 
