@@ -28,15 +28,6 @@ Examples:
 * **`get_html_translation_table`** = `gethtmltranslationtable`
 * **`getimagesizefromstring`** = `get_image_size_from_string`
 
-### Word Order
-
-The order of noun and verb is reversible
-
-Examples:
-
-* **`ini_get`** = `get_ini`
-* **`get_class`** = `class_get`
-
 ### Synonyms
 
 Makes some native syntax more descriptive
@@ -45,7 +36,16 @@ Examples:
 
 * **`asin`** = `arc_sin` = `arcsin`
 * **`asort`** = `array_sort`
-* **`bzcompress`** = `bzip_compress
+* **`bzcompress`** = `bzip_compress`
+
+### Word Order
+
+The order of noun and verb is reversible
+
+Examples:
+
+* **`ini_get`** = `get_ini`
+* **`get_class`** = `class_get`
 
 ## Links
 
