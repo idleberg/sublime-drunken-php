@@ -2,27 +2,55 @@
 
 ## Description
 
-This might or might not be a good idea to improve your PHP skills. Using this package, you will likely never memorize the syntax. But then again, using this you don't have to anymore. PHP is often criticized for having an inconsistent syntax and *Drunken PHP* tries to make use of that. It's a set of command completions, including aliases for ill-formed syntax. Read the section below for examples.
+This might be a bad idea, as you might never memorize the correct PHP syntax. But then again, using this you don't have to anymore. PHP is often criticized for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of command completions, including aliases for ill-formed syntax. Read the section below for examples.
+
+**Note:** More recent version of Sublime Text 3 received a much improved fuzzy completion. However, while I still believe that this package makes for a good companion to standard PHP completions, I'm undecided about the future of this project. Should you be interested in helping out, feel free to submit a pull request.
 
 ## Aliases
 
+You can tell apart *Drunken PHP* from proper syntax from the %-prefix in the command completion window.
+
 ### Prince Versions
 
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), these versions make no difference between **`bin2hex`**/`bintohex`/`bin_to_hex` or **`cal_to_jd`**/`cal2jd`/`caltojd`.
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), you can substitute any `to` with the number `2` and vice versa
+
+Examples:
+
+* **`bin2hex`** = `bintohex` = `bin_to_hex`
+* **`cal_to_jd`** = `cal2jd` = `caltojd`.
 
 ### Spacing
 
-Support for two types of spacing, equalizing **`get_html_translation_table`**/`gethtmltranslationtable` or **`getimagesizefromstring`**/`get_image_size_from_string`
+Enables you to type commands with or without spacing
+
+Examples:
+
+* **`get_html_translation_table`** = `gethtmltranslationtable`
+* **`getimagesizefromstring`** = `get_image_size_from_string`
 
 ### Word Order
 
-The order of noun and verb is reversible, you can use combos such as **`ini_get`**/`get_ini` or **`get_class`**/`class_get`
+The order of noun and verb is reversible
+
+Examples:
+
+* **`ini_get`** = `get_ini`
+* **`get_class`** = `class_get`
+
+### Synonyms
+
+Makes some native syntax more descriptive
+
+Examples:
+
+* **`asin`** = `arc_sin` = `arcsin`
+* **`asort`** = `array_sort`
+* **`bzcompress`** = `bzip_compress
 
 ## Links
 
-[PHP: a fractal of bad design](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)
-
-[PHP in contrast to Perl](http://tnx.nl/php.html)
+* [PHP: a fractal of bad design](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/)
+* [PHP in contrast to Perl](http://tnx.nl/php.html)
 
 ## License
 
