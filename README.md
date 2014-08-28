@@ -12,7 +12,7 @@ As with all [completions](https://sublime-text-unofficial-documentation.readthed
 
 ## Aliases
 
-You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displayed in the command completion window. Aliases have been broken up into the following categories (bold marks proper syntax):
+You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displayed in the command completion window. Aliases have been broken up into the following categories:
 
 ### Prince Versions
 
@@ -20,8 +20,10 @@ Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wi
 
 Examples:
 
-* **`bin2hex`** = `bintohex` = `bin_to_hex`
-* **`cal_to_jd`** = `cal2jd` = `caltojd`.
+PHP         | Alias
+------------|-----------
+`bin2hex`   | `bintohex`
+`cal_to_jd` | `cal2jd`
 
 ### Spacing
 
@@ -29,8 +31,10 @@ Enables you to type commands with or without spacing
 
 Examples:
 
-* **`get_html_translation_table`** = `gethtmltranslationtable`
-* **`getimagesizefromstring`** = `get_image_size_from_string`
+PHP                          | Alias
+-----------------------------|-----------------------------
+`get_html_translation_table` | `gethtmltranslationtable`
+`getimagesizefromstring`     | `get_image_size_from_string`
 
 ### Synonyms
 
@@ -38,9 +42,11 @@ Makes some native syntax more descriptive
 
 Examples:
 
-* **`asin`** = `arc_sin` = `arcsin`
-* **`asort`** = `array_sort`
-* **`bzcompress`** = `bzip_compress`
+PHP          | Alias
+-------------|------------------------
+`asin`       | `arc_sin` (or `arcsin`)
+`asort`      | `array_sort`
+`bzcompress` | `bzip_compress`
 
 ### Word Order
 
@@ -48,8 +54,10 @@ The order of noun and verb is reversible
 
 Examples:
 
-* **`ini_get`** = `get_ini`
-* **`get_class`** = `class_get`
+PHP           | Alias
+--------------|-----------
+`ini_get`     | `get_ini`
+`get_class`   | `class_get`
 
 ## License
 
