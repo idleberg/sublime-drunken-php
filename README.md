@@ -64,8 +64,8 @@ Examples:
 
 PHP             | Alias
 ----------------|-----------------------------
-`mb_strwidht`   | `mb_strwidth`
-`ob_get_lenght` | `ob_get_length`
+`mb_strwidth`   | `mb_strwidht`
+`ob_get_length` | `ob_get_lenght`
 
 ### Synonyms
 
