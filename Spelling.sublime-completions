@@ -1,0 +1,16 @@
+{
+        "scope": "source.php",
+        "completions":
+        [
+                { "trigger": "%imagefontheigth", "contents": "imagefontheight(\\$${1:int});" },
+                { "trigger": "%imagefontwidht", "contents": "imagefontwidth(\\$${1:int});" },
+                { "trigger": "%mb_strimwidht", "contents": "mb_strimwidth(\\$${1:str}, \\$${2:start}${3:, \\$${4:trimmarker}=\"${5:}\"${6:, \\$${7:encoding}}});" },
+                { "trigger": "%mb_strwidht", "contents": "mb_strwidth(\\$${1:str}${2:, \\$${3:encoding}});" },
+                { "trigger": "%mysql_fetch_lenghts", "contents": "mysql_fetch_lengths(\\$${1:result});" },
+                { "trigger": "%mysqli_fetch_lenghts", "contents": "mysqli_fetch_lengths(\\$${1:result});" },
+                { "trigger": "%ob_get_lenght", "contents": "ob_get_length();" },
+                { "trigger": "%openssl_cipher_iv_lenght", "contents": "openssl_cipher_iv_length(\\$${1:method});" },
+
+                { "note": "It ain't over 'til the fat lady sings" }
+        ]
+}
