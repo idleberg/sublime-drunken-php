@@ -56,6 +56,17 @@ PHP                          | Alias
 `get_html_translation_table` | `gethtmltranslationtable`
 `getimagesizefromstring`     | `get_image_size_from_string`
 
+### Spelling
+
+Correct common spelling mistakes
+
+Examples:
+
+PHP             | Alias
+----------------|-----------------------------
+`mb_strwidht`   | `mb_strwidth`
+`ob_get_lenght` | `ob_get_length`
+
 ### Synonyms
 
 Makes some native syntax more descriptive
