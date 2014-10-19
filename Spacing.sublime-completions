@@ -93,6 +93,8 @@
                 { "trigger": "%gz_encode", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}${5:, ${6:\\$${7:encoding_mode}}}});" },
                 { "trigger": "%gz_encode:FORCE_DEFLATE", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}}, FORCE_DEFLATE);" },
                 { "trigger": "%gz_encode:FORCE_GZIP", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}}, FORCE_GZIP);" },
+                { "trigger": "%image_font_height", "contents": "imagefontheight(\\$${1:int});" },
+                { "trigger": "%image_font_width", "contents": "imagefontwidth(\\$${1:int});" },
                 { "trigger": "%jsondecode", "contents": "json_decode(${1:\\$${2:json}}${3:, ${4:\\$${5:assoc}}${6:, ${7:\\$${8:depth}}${9:, ${10:\\$${11:options}}}}});" },
                 { "trigger": "%jsondecode:JSON_BIGINT_AS_STRING", "contents": "json_decode(${1:\\$${2:json}}, ${3:\\$${4:assoc}}, ${5:\\$${6:depth}}, JSON_BIGINT_AS_STRING);" },
                 { "trigger": "%jsonencode", "contents": "json_encode(${1:\\$${2:value}}${3:, ${4:\\$${5:options}}${6:, ${7:\\$${8:depth}}}});" },
@@ -115,6 +117,7 @@
                 { "trigger": "%utf8encode", "contents": "utf8_encode(${1:data});" },
                 { "trigger": "%zlibdecode", "contents": "zlib_decode(${1:data}${2:, ${3:\\$${4:max_decoded_len}}});" },
                 { "trigger": "%zlibencode", "contents": "zlib_encode(${1:data}${2:, ${3:\\$${4:encoding}}${5:, ${6:\\$${7:level}}}});" },
+                { "trigger": "%obgetlength", "contents": "ob_get_length();" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]
