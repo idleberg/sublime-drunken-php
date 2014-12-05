@@ -13,6 +13,7 @@
                 { "trigger": "%openssl_cipher_iv_lenght", "contents": "openssl_cipher_iv_length(\\$${1:method});" },
                 { "trigger": "%pg_verison", "contents": "pg_version(\\$${1:connection});" },
                 { "trigger": "%phpverison", "contents": "phpversion(${1:extension});" },
+                { "trigger": "%verison_compare", "contents": "version_compare(${1:\\$${2:version1}}, ${3:\\$${4:version2}}${5:, ${6:\\$${7:operator}}});" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]
