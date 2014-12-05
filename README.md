@@ -66,6 +66,7 @@ PHP             | Alias
 ----------------|-----------------------------
 `mb_strwidth`   | `mb_strwidht`
 `ob_get_length` | `ob_get_lenght`
+`phpversion`    | `phpverison`
 
 ### Synonyms
 
