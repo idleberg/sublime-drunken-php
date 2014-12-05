@@ -58,7 +58,7 @@ PHP                          | Alias
 
 ### Spelling
 
-Correct common spelling mistakes
+Corrects common spelling mistakes
 
 Examples:
 
