@@ -118,6 +118,7 @@
                 { "trigger": "%utf8decode", "contents": "utf8_decode(${1:data});" },
                 { "trigger": "%utf8encode", "contents": "utf8_encode(${1:data});" },
                 { "trigger": "%versioncompare", "contents": "version_compare(${1:\\$${2:version1}}, ${3:\\$${4:version2}}${5:, ${6:\\$${7:operator}}});" },
+                { "trigger": "%zendversion", "contents": "zend_version();" },
                 { "trigger": "%zlibdecode", "contents": "zlib_decode(${1:data}${2:, ${3:\\$${4:max_decoded_len}}});" },
                 { "trigger": "%zlibencode", "contents": "zlib_encode(${1:data}${2:, ${3:\\$${4:encoding}}${5:, ${6:\\$${7:level}}}});" },
 
