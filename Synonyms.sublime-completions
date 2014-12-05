@@ -74,6 +74,7 @@
                 { "trigger": "%gzip_encode", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}${5:, ${6:\\$${7:encoding_mode}}}});" },
                 { "trigger": "%gzip_encode:FORCE_DEFLATE", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}}, FORCE_DEFLATE);" },
                 { "trigger": "%gzip_encode:FORCE_GZIP", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}}, FORCE_GZIP);" },
+                { "trigger": "%postgres_version", "contents": "pg_version(\\$${1:connection});" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]
