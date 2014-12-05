@@ -12,6 +12,7 @@
                 { "trigger": "%ob_get_lenght", "contents": "ob_get_length();" },
                 { "trigger": "%openssl_cipher_iv_lenght", "contents": "openssl_cipher_iv_length(\\$${1:method});" },
                 { "trigger": "%pg_verison", "contents": "pg_version(\\$${1:connection});" },
+                { "trigger": "%phpverison", "contents": "phpversion(${1:extension});" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]

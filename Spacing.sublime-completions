@@ -107,6 +107,8 @@
                 { "trigger": "%jsonencode:JSON_PRETTY_PRINT", "contents": "json_encode(${1:\\$${2:value}}, JSON_PRETTY_PRINT${3:, ${4:\\$${5:depth}}});" },
                 { "trigger": "%jsonencode:JSON_UNESCAPED_SLASHES", "contents": "json_encode(${1:\\$${2:value}}, JSON_UNESCAPED_SLASHES${3:, ${4:\\$${5:depth}}});" },
                 { "trigger": "%jsonencode:JSON_UNESCAPED_UNICODE", "contents": "json_encode(${1:\\$${2:value}}, JSON_UNESCAPED_UNICODE${3:, ${4:\\$${5:depth}}});" },
+                { "trigger": "%obgetlength", "contents": "ob_get_length();" },
+                { "trigger": "%php_version", "contents": "phpversion(${1:extension});" },
                 { "trigger": "%raw_url_decode", "contents": "rawurldecode(${1:\\$${2:str}});" },
                 { "trigger": "%raw_url_encode", "contents": "rawurlencode(${1:\\$${2:str}});" },
                 { "trigger": "%sessiondecode", "contents": "session_decode(${1:data});" },
@@ -117,7 +119,6 @@
                 { "trigger": "%utf8encode", "contents": "utf8_encode(${1:data});" },
                 { "trigger": "%zlibdecode", "contents": "zlib_decode(${1:data}${2:, ${3:\\$${4:max_decoded_len}}});" },
                 { "trigger": "%zlibencode", "contents": "zlib_encode(${1:data}${2:, ${3:\\$${4:encoding}}${5:, ${6:\\$${7:level}}}});" },
-                { "trigger": "%obgetlength", "contents": "ob_get_length();" },
 
                 { "note": "It ain't over 'til the fat lady sings" }
         ]
