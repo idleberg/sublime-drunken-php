@@ -70,6 +70,7 @@
                 { "trigger": "%encode_crc32", "contents": "crc32(${1:\\$${2:string}});" },
                 { "trigger": "%file_copy", "contents": "copy(${1:\\$${2:source}}, ${3:\\$${4:dest}}${5:, ${6:\\$${7:context}}});" },
                 { "trigger": "%filecopy", "contents": "copy(${1:\\$${2:source}}, ${3:\\$${4:dest}}${5:, ${6:\\$${7:context}}});" },
+                { "trigger": "%get_mhash_name", "contents": "mhash_get_hash_name(${1:\\$hash});" },
                 { "trigger": "%gzip_decode", "contents": "gzdecode(${1:data}${2:, ${3:\\$${4:length}}});" },
                 { "trigger": "%gzip_encode", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}${5:, ${6:\\$${7:encoding_mode}}}});" },
                 { "trigger": "%gzip_encode:FORCE_DEFLATE", "contents": "gzencode(${1:data}${2:, ${3:\\$${4:level}}}, FORCE_DEFLATE);" },
