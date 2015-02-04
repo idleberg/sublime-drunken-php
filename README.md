@@ -1,8 +1,10 @@
-# Drunken PHP for Sublime Text [![Build Status](https://secure.travis-ci.org/idleberg/Drunken-PHP.svg)](http://travis-ci.org/idleberg/Drunken-PHP)
+# Drunken PHP for Sublime Text
+
+[![Travis](https://img.shields.io/travis/idleberg/Drunken-PHP.svg?style=flat-square)](https://travis-ci.org/idleberg/Drunken-PHP)
 
 ## Description
 
-PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://tnx.nl/php.html) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the [Aliases](https://github.com/idleberg/Drunken-PHP#aliases) section below for examples.
+PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/) [criticized](http://tnx.nl/php.html) for having an inconsistent syntax and this is exactly what *Drunken PHP* aims at. It's a set of alternative command completions, including aliases for ill-formed syntax. Read the [Aliases](#aliases) section below for examples.
 
 **Note:** More recent versions of Sublime Text 3 received a much improved fuzzy completion. Nevertheless, I still believe that this package makes for a good companion to your standard PHP completions. However, I'm undecided about the future of this project, it's clearly far from being complete. Should you be interested in helping out, feel free to submit a pull request.
 
@@ -36,7 +38,7 @@ You can tell apart *Drunken PHP* from proper syntax from the `%`-prefix displaye
 
 ### Prince Versions
 
-Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), you can substitute any `to` with the number `2` and vice versa
+Named after the Prince Emulator in Douglas Coupland's [Microserfs](http://www.wired.com/wired/archive/2.01/microserfs.html), you can substitute any `to` with the number `2` and vice versa.
 
 Examples:
 
@@ -47,7 +49,7 @@ PHP         | Alias
 
 ### Spacing
 
-Enables you to type commands with or without spacing
+Enables you to type commands with or without spacing. Probably obsolete due to fuzzy completions.
 
 Examples:
 
@@ -58,7 +60,7 @@ PHP                          | Alias
 
 ### Spelling
 
-Corrects common spelling mistakes
+Corrects common spelling mistakes.
 
 Examples:
 
