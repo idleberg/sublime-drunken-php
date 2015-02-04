@@ -99,6 +99,8 @@
                 { "trigger": "%imap_get_acl", "contents": "imap_getacl(${1:imap_stream}, ${2:mailbox});" },
                 { "trigger": "%imap_get_mailboxes", "contents": "imap_getmailboxes(${1:imap_stream}, ${2:ref}, ${3:pattern});" },
                 { "trigger": "%imap_get_subscribed", "contents": "imap_getsubscribed(${1:imap_stream}, ${2:ref}, ${3:pattern});" },
+                { "trigger": "%imap_set_acl", "contents": "imap_setacl(${1:imap_stream}, ${2:mailbox}, ${3:id}, ${4:rights});" },
+                { "trigger": "%imap_set_flag_full", "contents": "imap_setflag_full(${1:imap_stream}, ${2:sequence}, ${3:flag}${4:, ${5:options}});" },
                 { "trigger": "%jsondecode", "contents": "json_decode(${1:json}${2:, ${3:assoc}${4:, ${5:depth}${6:, ${7:options}}}});" },
                 { "trigger": "%jsondecode:JSON_BIGINT_AS_STRING", "contents": "json_decode(${1:json}, ${2:assoc}, ${3:depth}, JSON_BIGINT_AS_STRING);" },
                 { "trigger": "%jsonencode", "contents": "json_encode(${1:value}${2:, ${3:options}${4:, ${5:depth}}});" },
