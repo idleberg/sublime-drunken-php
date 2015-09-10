@@ -1,6 +1,7 @@
 # Drunken PHP for Sublime Text
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Package Control](https://packagecontrol.herokuapp.com/downloads/Drunken%20PHP.svg?style=flat-square)](https://packagecontrol.io/packages/Drunken%20PHP)
 [![Travis](https://img.shields.io/travis/idleberg/Drunken-PHP.svg?style=flat-square)](https://travis-ci.org/idleberg/Drunken-PHP)
 
 ## Description
