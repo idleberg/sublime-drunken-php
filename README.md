@@ -20,15 +20,17 @@ PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
-### GitHub ###
+### GitHub
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/idleberg/Drunken-PHP.git`
+2. Clone repository `git clone https://github.com/idleberg/Drunken-PHP.git 'Drunken PHP'`
 
 ### Manual Installation ###
 
-1. Download the files using the GitHub [.zip](https://github.com/idleberg/Drunken-PHP/archive/master.zip) download option
-2. Unzip the files to your Sublime Text `Packages` directory
+### Manual installation
+
+1. Download the latest [ZIP file](https://github.com/idleberg/Drunken-PHP/archive/master.zip)
+2. Unzip the archive to your Sublime Text `Packages` directory
 
 ## Usage
 
@@ -97,24 +99,8 @@ PHP           | Alias
 
 ## License
 
-The MIT License (MIT)
+This work is licensed under the [The MIT License](LICENSE).
 
-Copyright (c) 2014 Jan T. Sott
+## Donate
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/Drunken-PHP) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
