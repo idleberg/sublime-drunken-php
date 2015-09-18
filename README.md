@@ -15,8 +15,8 @@ PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 ### Package Control
 
 1. Make sure you already have [Package Control](https://sublime.wbond.net/installation) installed
-2. Choose *Install Package* from the Command Palette (`Ctrl+Shift+P` on Windows/Linux, `⇧⌘P` on OS X)
-3. Select *Drunken PHP* and press `Enter`
+2. Choose *Install Package* from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
+3. Select *Drunken PHP* and press <kbd>Enter</kbd>
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
