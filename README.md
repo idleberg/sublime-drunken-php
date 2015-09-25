@@ -14,7 +14,7 @@ PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 
 ### Package Control
 
-1. Make sure you already have [Package Control](https://sublime.wbond.net/installation) installed
+1. Make sure you already have [Package Control](https://packagecontrol.io/) installed
 2. Choose “*Install Package*” from the Command Palette (<kbd>Super</kbd>+<kbd>Shift</kbd>+<kbd>p</kbd>)
 3. Type “*Drunken PHP*” and press <kbd>Enter</kbd>
 
