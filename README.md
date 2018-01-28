@@ -20,7 +20,7 @@ PHP is [often](http://me.veekun.com/blog/2012/04/09/php-a-fractal-of-bad-design/
 
 With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/) enabled, Package Control will keep all installed packages up-to-date!
 
-### GitHub
+### Using Git
 
 1. Change to your Sublime Text `Packages` directory
 2. Clone repository `git clone https://github.com/idleberg/Drunken-PHP.git 'Drunken PHP'`
