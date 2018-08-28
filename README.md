@@ -2,7 +2,7 @@
 
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 [![Package Control](https://packagecontrol.herokuapp.com/downloads/Drunken%20PHP.svg?style=flat-square)](https://packagecontrol.io/packages/Drunken%20PHP)
-[![Travis](https://img.shields.io/travis/idleberg/Drunken-PHP.svg?style=flat-square)](https://travis-ci.org/idleberg/Drunken-PHP)
+[![Travis](https://img.shields.io/travis/idleberg/Drunken-PHP.svg?style=flat-square)](https://travis-ci.org/idleberg/sublime-drunken-php)
 
 ## Description
 
@@ -23,13 +23,13 @@ With [auto_upgrade](http://wbond.net/sublime_packages/package_control/settings/)
 ### Using Git
 
 1. Change to your Sublime Text `Packages` directory
-2. Clone repository `git clone https://github.com/idleberg/Drunken-PHP.git 'Drunken PHP'`
+2. Clone repository `git clone https://github.com/idleberg/sublime-drunken-php.git 'Drunken PHP'`
 
 ### Manual Installation ###
 
 ### Manual installation
 
-1. Download the latest [ZIP file](https://github.com/idleberg/Drunken-PHP/archive/master.zip)
+1. Download the latest [ZIP file](https://github.com/idleberg/sublime-drunken-php/archive/master.zip)
 2. Unzip the archive to your Sublime Text `Packages` directory
 
 ## Usage
@@ -103,4 +103,4 @@ This work is licensed under the [The MIT License](LICENSE).
 
 ## Donate
 
-You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/Drunken-PHP) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
+You are welcome support this project using [Flattr](https://flattr.com/submit/auto?user_id=idleberg&url=https://github.com/idleberg/sublime-drunken-php) or Bitcoin `17CXJuPsmhuTzFV2k4RKYwpEHVjskJktRd`
